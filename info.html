@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Sistemas operativos</title>
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, #ebe7e0, #bdb8ad);
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        nav li {
+            float: left;
+        }
+
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav li a:hover:not(.active) {
+            color: #333;
+            background-color: #8d9faf;
+        }
+
+        .active {
+            color: #333;
+            background-color: #44749d;
+            font-weight: 900;
+        }
+
+        .light:hover {
+            background-color: gold;
+        }
+
+        h1 {
+            background-color: #44749d;
+            padding: 10px;
+            margin: 0;
+            color: #ffffff;
+        }
+
+        h2 {
+            margin: 15px;
+        }
+
+        h3 {
+            margin: 25px;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+            font-family: "Cambria";
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: #8f9a9c;
+        }
+
+        small {
+            margin-left: 50px;
+        }
+
+        .footer {
+            background-color: #44749d;
+            color: #ddd;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Sistemas Operativos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html ">Principal</a></li>
+                <li><a class="active" href="info.html">Información</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Requisitos para instalar sistemas operativos</h2>
+    <hr>
+    <h3>Windows XP&reg;</h3>
+    <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color: #bec3bc;">
+            </colgroup>
+            <th>Componente</th>
+            <th>Mínimo</th>
+            <th>Recomendado</th>
+            <th>Óptimos</th>
+            <tr>
+                <td>Velocidad procesador</td>
+                <td>233 MHz</td>
+                <td>300MHz</td>
+                <td>800MHz o superior</td>
+            </tr>
+            <tr>
+                <td>Memoria principal</td>
+                <td>64MB RAM</td>
+                <td>128MB RAM</td>
+                <td>512MB a 1GB RAM</td>
+            </tr>
+            <tr>
+                <td>Espacio disco duro</td>
+                <td>1.5GB</td>
+                <td colspan="2">10GB o superior</td>
+            </tr>
+            <tr>
+                <td>Video</td>
+                <td>800*600 o superior</td>
+                <td colspan="2">1024*768 o superior</td>
+            </tr>
+            <tr>
+                <td>Periféricos</td>
+                <td colspan="3">Teclado y ratón</td>
+            </tr>
+        </table>
+    </div>
+
+    <h3>Windows 7&reg;</h3>
+    <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color: #bec3bc;">
+            </colgroup>
+            <tr>
+                <th>Arquitectura</th>
+                <th colspan="2">32 bits(x86)</th>
+                <th colspan="2">64 bits(x64)</th>
+            </tr>
+            <tr>
+                <th>Componente</th>
+                <th>Mínimo</th>
+                <th>Recomendado</th>
+                <th>Mínimo</th>
+                <th>Recomendado</th>
+            </tr>
+            <tr>
+                <td>Velocidad procesador</td>
+                <td colspan="5">1GHz</td>
+            </tr>
+            <tr>
+                <td>Memoria principal</td>
+                <td>1GB de RAM</td>
+                <td>2GB de RAM</td>
+                <td>2GB de RAM</td>
+                <td>4GB de RAM</td>
+            </tr>
+            <tr>
+                <td>Espacio disco duro</td>
+                <td>16GB de espacio libre</td>
+                <td>Mayor al mínimo</td>
+                <td>20GB de espacio libre</td>
+                <td>Mayor al mínimo</td>
+            </tr>
+            <tr>
+                <td>Video</td>
+                <td>800*600</td>
+                <td>1024*768</td>
+                <td>800*600</td>
+                <td>1024*768</td>
+            </tr>
+            <tr>
+                <td>tarjeta gráfica</td>
+                <td colspan="4">
+                    Dispositivo de gráficos DirectX 9 con controlador WDDM 1.0 o superior, Windows Aero también req.
+                    128MB de VRAM
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <h3>*Windows 10&reg;</h3>
+    <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color: #bec3bc;">
+            </colgroup>
+            <th>Componente</th>
+            <th>32 bits(x86)</th>
+            <th>64 bits(x64)</th>
+            <tr>
+                <td>Velocidad procesador</td>
+                <td colspan="2">1GHz</td>
+            </tr>
+            <tr>
+                <td>RAM</td>
+                <td>1GB</td>
+                <td>2GB</td>
+            </tr>
+            <tr>
+                <td>Espacio disco duro</td>
+                <td>16GB</td>
+                <td>32GB</td>
+            </tr>
+            <tr>
+                <td>tarjeta gráfica</td>
+                <td colspan="2">DirectX 9 o posterior con un controlador WDDM 1.0</td>
+            </tr>
+            <tr>
+                <td>Video</td>
+                <td colspan="2">800*600</td>
+            </tr>
+        </table>
+    </div>
+    <small>*Estos son los requisitos mínimos para funcionar el SO sin programas</small>
+
+    <h3>*Windows 11&reg;</h3>
+    <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color: #bec3bc;">
+            </colgroup>
+            <th>Componentes</th>
+            <th>Mínimo</th>
+            <tr>
+                <td>Velocidad procesador</td>
+                <td><a href="https://aka.ms/CPUlist" title="Ver CPU's aprobados por Microsoft" target="_blank">1GHz/2
+                        núcleos</a></td>
+            </tr>
+            <tr>
+                <td>Memoria principal</td>
+                <td>4GB</td>
+            </tr>
+            <tr>
+                <td>Espacio disco duro</td>
+                <td>64GB</td>
+            </tr>
+            <tr>
+                <td>Firmware BIOS</td>
+                <td><acronym
+                        title="Unified Extensible Firmware Interface | interfaz unificada de firmware extensible">UEFI</acronym>
+                </td>
+            </tr>
+            <tr>
+                <td><acronym title="Trusted Plataform Module | Módulo de Plataforma de Confianza">TPM</acronym>
+                </td>
+                <td><a href="https://www.xataka.com/basics/que-tpm-como-comprobar-tu-ordenador-tiene-para-poder-instalar-windows-11"
+                        title="Xataka | Qué es el TPM y cómo comprobar si tu ordenador lo tiene para poder instalar Windows 11">Versión
+                        2.0</a></td>
+            </tr>
+            <tr>
+                <td>tarjeta gráfica</td>
+                <td>Compatible con DirectX 12 o posterior con el controlador WDDM 2.0</td>
+            </tr>
+            <tr>
+                <td>Video</td>
+                <td>Pantalla HD (720p) mayor 9" diagonales, 8bit por canal de color</td>
+            </tr>
+        </table>
+    </div>
+    <small>*Estos son los requisitos mínimos para funcionar el SO sin programas</small>
+
+    <h3>*Ubuntu 22.04.2 LTS</h3>
+    <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color: #bec3bc;">
+            </colgroup>
+            <th>Componente</th>
+            <th>Mínimo</th>
+            <tr>
+                <td>Velocidad del procesador</td>
+                <td>2GHz</td>
+            </tr>
+            <tr>
+                <td>Memoria principal</td>
+                <td>4GB</td>
+            </tr>
+            <tr>
+                <td>Espacio disco duro</td>
+                <td>25GB</td>
+            </tr>
+            <tr>
+                <td>Medio de instalación</td>
+                <td>lector DVD o puerto USB</td>
+            </tr>
+        </table>
+    </div>
+    <small>*Preferible instalación de versiones LTS o con <i>soporte a largo plazo</i></small>
+
+    <h3>*Linux Mint</h3>
+    <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color: #bec3bc;">
+            </colgroup>
+            <th>Componente</th>
+            <th>Mínimo</th>
+            <th>Recomendado</th>
+            <tr>
+                <td>Velocidad del procesador</td>
+                <td>700MHz</td>
+                <td>1GHz</td>
+            </tr>
+            <tr>
+                <td>Memoria principal</td>
+                <td>1GB</td>
+                <td>2GB</td>
+            </tr>
+            <tr>
+                <td>Espacio disco duro</td>
+                <td>15GB</td>
+                <td>20GB</td>
+            </tr>
+            <tr>
+                <td>Video</td>
+                <td>1024*768</td>
+                <td>Superior a 1024*768</td>
+            </tr>
+        </table>
+    </div>
+    <small>*Preferible instalación de versiones LTS o con <i>soporte a largo plazo</i></small>
+
+    <footer class="footer">
+        <p>Derechos Reservados &copy; 2023</p>
+        <p><i>Todo lo escrito en la página está sujeto a cambios =&#41;</i></p>
+        <a class="light" target="_blank" href="https://icons8.com/icon/tdrsze_tLfB3/feliz-mac">Macintosh</a> icon by <a
+            class="light" target="_blank" href="https://icons8.com">Icons8</a>
+    </footer>
+</body>
+
+</html>
